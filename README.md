@@ -1,6 +1,30 @@
 # Ray-Skills
 
-Ray 的个人技能与知识仓库。以后自己编写、维护和迁入的 skill 统一在这里管理，按需安装到各个 AI 工具。
+Ray 的个人 **Skill 集合仓库**，统一收纳所有领域的独立技能。每个 skill 有自己的入口、说明、脚本和资源，可以单独维护、选择和安装。
+
+## 仓库定位
+
+仓库根目录负责总目录与维护规则，`skills/` 下每个子目录对应一个独立 skill。硬件分析、PPT 制作、浏览器操作、开发工具等都可以并列收录，仓库不限定领域。
+
+以下仅为未来收录方式的示意，技能尚未迁入：
+
+```text
+Ray-Skills/
+  README.md                     # 整个集合的首页
+  skills/
+    README.md                   # 所有技能的索引
+    skill-a/
+      SKILL.md                  # A 的入口
+      scripts/                  # A 的脚本
+      references/               # A 的资料
+    skill-b/
+      SKILL.md                  # B 的入口
+      assets/                   # B 的模板与素材
+    skill-c/
+      SKILL.md                  # C 的入口
+```
+
+新增一个 skill 就新增一个完整目录。根目录无需 `SKILL.md`，也无需把所有技能串成统一工作流。
 
 ## 当前状态
 
@@ -11,14 +35,16 @@ Ray 的个人技能与知识仓库。以后自己编写、维护和迁入的 ski
 | 位置 | 内容 |
 | --- | --- |
 | [skills/](skills/README.md) | 可安装技能：每个技能独立一个目录 |
-| [references/](references/README.md) | 跨技能共享的背景知识与研究资料 |
-| [templates/](templates/README.md) | 可复用文档模板 |
-| [examples/](examples/README.md) | 示例项目、报告与配套评审 |
-| [tools/](tools/README.md) | 仓库级辅助工具 |
+| [references/](references/README.md) | 现有硬件参考资料，尚未归属具体技能 |
+| [templates/](templates/README.md) | 现有硬件文档模板，尚未归属具体技能 |
+| [examples/](examples/README.md) | 现有硬件分析案例及评审 |
+| [tools/](tools/README.md) | 现有文档辅助脚本 |
 | [archive/](archive/README.md) | 待处理的旧稿、空文件，保留追溯 |
 | [docs/](docs/migration-2026-10-02.md) | 整理记录与维护说明 |
 
 ## 后续如何收纳 skill
+
+根目录的资料分类用于安置这次整理前已有的硬件文件，不是新技能的公共资源目录。后续技能的专属资料、模板、案例和脚本都跟随该技能存放；这些历史资料在归属明确后也可迁入对应技能。
 
 统一使用 `skills/<skill-name>/SKILL.md`，目录名采用小写英文与连字符。按领域分类放在目录索引中，不增加多层安装路径。技能依赖的脚本、参考材料和模板放在其自身目录内，确保单独复制该目录也能使用。
 
