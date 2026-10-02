@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ray-Skills 同步"
+  short_description: "在本机与 Ray-Skills 仓库之间上传、拉取和比较独立技能"
+  default_prompt: "使用 $ray-skills-sync 同步我指定的技能，并核对本机与 GitHub 的文件差异。"
+policy:
+  allow_implicit_invocation: true
