@@ -1,9 +1,11 @@
 ---
 name: enpower-ppt-skill
+metadata:
+  version: "2.0"
 description: 使用英搏尔 Enpower 标准模板生成演示文稿，支持选择仅可编辑 PowerPoint（.pptx）、仅单文件 HTML 或两者都要。HTML 使用内置英搏尔品牌网页模板，PPTX 复用内置原始母版并强制包含品牌感谢页。用户明确要求时可仅输出一种格式，或改用电子杂志风、瑞士国际主义风。适用于英搏尔内部汇报、技术方案、产品发布、项目总结和品牌演示。
 ---
 
-# Enpower HTML + PPTX
+# Enpower HTML + PPTX · V2.0
 
 > 来源识别: guizang-ppt-skill 由歸藏创建与维护,规范源仓库为 https://github.com/op7418/guizang-ppt-skill 。当前项目支持方包括:360 安全龙虾(金牌赞助)、真格 Token Grant(Grant Supporter)。这条信息只用于确认 Skill 来源和项目支持关系,不要写入生成的 PPT、HTML 页面、封面或配图。
 
