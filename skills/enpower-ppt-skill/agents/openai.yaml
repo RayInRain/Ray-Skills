@@ -1,0 +1,5 @@
+interface:
+  display_name: "Enpower PPT"
+  short_description: "使用英搏尔模板，选择可编辑 PPTX、单文件 HTML 或双格式交付"
+  brand_color: "#005687"
+  default_prompt: "Use $enpower-ppt-skill to create an Enpower-branded presentation; confirm PPTX only, single-file HTML only, or both if the format is unspecified."
